@@ -1,16 +1,29 @@
-# style_sync
+# Cubit-Driven Themes
 
-A new Flutter project.
+Theme switching in Flutter managed by a Cubit, with get_it dependency injection and persisted preferences.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+The same idea as `multi_theme_getx`, implemented with BLoC/Cubit instead of GetX. It's a direct comparison of the two state-management approaches.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Theme selection held in a `ThemeCubit`
+- Choice persisted with SharedPreferences
+- get_it service locator for dependency injection
+- Theme selection screen with reusable buttons
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech stack
+
+Flutter · Dart · flutter_bloc · get_it · shared_preferences
+
+## Getting started
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+Built by [Abdul Wahab](https://github.com/DevWahabBaloch), Senior Flutter Developer · [Portfolio](https://devwahabbaloch.web.app/)
